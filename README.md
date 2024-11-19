@@ -1,6 +1,6 @@
 [<img src="https://cdn.klarna.com/1.0/shared/image/generic/logo/global/basic/logo_black.png" alt="Klarna" width="200">](https://klarna.com)
 
-# Klarna Order Management App Installation Guide
+# Klarna Order Management App for Salesforce Commerce Cloud
 
 ## Overview
 The Klarna OMS App integrates Salesforce Order Management System (OMS) with Klarna payment solutions. It offers pre-built templates and flows for efficient order handling.
