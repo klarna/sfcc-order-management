@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>EMPTY_FILE</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSV file is empty.</shortDescription>
+        <value>CSV file is empty.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_JSON_BAD_FORMAT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The provided Json String was badly formatted.</shortDescription>
+        <value>The provided Json String was badly formatted.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_JSON_EMPTY</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No field values were found in the Json String.</shortDescription>
+        <value>No field values were found in the Json String.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_OP_FAILED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operation failed, please check messages!</shortDescription>
+        <value>Operation failed, please check messages!</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_REQUEST_FAILED_NO_ERROR</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request failed with no specified error.</shortDescription>
+        <value>Request failed with no specified error.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_UNAUTHORIZED_ENDPOINT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unauthorized endpoint, please check Setup</shortDescription>
+        <value>Unauthorized endpoint, please check Setup</value>
+    </labels>
+    <labels>
+        <fullName>FILE_MISSING</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please provide a comma separated file.</shortDescription>
+        <value>Please provide a comma separated file.</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_successMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Orders Success Title</shortDescription>
+        <value>Fulfillment Order Creation Succeeded</value>
+    </labels>
+    <labels>
+        <fullName>INVALID_FILE_ROW_SIZE_DOESNT_MATCH</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The number of field values does not match the number of header fields on line</shortDescription>
+        <value>The number of field values does not match the number of header fields on line</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CHECK_API_NAMES</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the Api names!</shortDescription>
+        <value>Please check the Api names!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_EXISTS</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make sure Custom Setting and Custom Metadata Types exists in the org!</shortDescription>
+        <value>Make sure Custom Setting and Custom Metadata Types exists in the org!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_FIELD_NAME_FORMAT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the format, Custom Setting.field and Custom Metadata Types.field</shortDescription>
+        <value>Please check the format, Custom Setting.field and Custom Metadata Types.field</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_FIELD_NAME_REQ</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Setting Name/Field Name and CMT/Field Name names are required!</shortDescription>
+        <value>Custom Setting Name/Field Name and CMT/Field Name names are required!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_MAPPING_REQ</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Setting Name, Custom Metadata Types and Json Mapping names are required!</shortDescription>
+        <value>Custom Setting Name, Custom Metadata Types and Json Mapping names are required!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_REQ</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Setting Api Name and Custom Metadata Types Api names are required!</shortDescription>
+        <value>Custom Setting Api Name and Custom Metadata Types Api names are required!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CUSTOM_SETTINGS_EXISTS</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make sure Custom Setting exists in the org!</shortDescription>
+        <value>Make sure Custom Setting exists in the org!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_JSON_API_NAMES</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the Api names in Json!</shortDescription>
+        <value>Please check the Api names in Json!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_JSON_FORMAT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the Json format!</shortDescription>
+        <value>Please check the Json format!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_MDT_END</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Metadata Types name should end with</shortDescription>
+        <value>Custom Metadata Types name should end with</value>
+    </labels>
+    <labels>
+        <fullName>MSG_MIGRATION_COMPLETED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Migration Completed!</shortDescription>
+        <value>Migration Completed!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_MIGRATION_IN_PROGRESS</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Migration In Progress, check status under Deploy -&gt; Deployment Status, Job Id:</shortDescription>
+        <value>Migration In Progress, check status under Deploy -&gt; Deployment Status, Job Id:</value>
+    </labels>
+    <labels>
+        <fullName>MSG_NOT_SUPPORTED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not Supported!!!</shortDescription>
+        <value>Not Supported!!!</value>
+    </labels>
+    <labels>
+        <fullName>TYPE_OPTION_NOT_SELECTED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please choose a valid custom metadata type.</shortDescription>
+        <value>Please choose a valid custom metadata type.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_invocableErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FlowErrors Invocable Error Message</shortDescription>
+        <value>Please close this window and check the Order Summary page for updated information.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupIsNotEnabledErrorDescription</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location or Group Unsynced Error Description</shortDescription>
+        <value>The assigned location or location group isn&apos;t configured to sync with Omnichannel Inventory.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupIsNotEnabledErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location or Group Unsynced Error Message</shortDescription>
+        <value>The location or group {0} isn&apos;t configured to sync with Omnichannel Inventory.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupMissMatchErrorDescription</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location or Group Mismatch Error Description</shortDescription>
+        <value>Some products in the delivery group have different fulfillment locations or location groups.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupMissMatchErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location or Group Mismatch Error Message</shortDescription>
+        <value>Product {0} has a different fulfillment location or location group than other products in the delivery group.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupUnavailableErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Location Groups Found Error Message</shortDescription>
+        <value>You can only run this flow in an org with at least one location group.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupUnavailableErrorTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Location Groups Found Error Title</shortDescription>
+        <value>No Location Groups Found</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationUnavailableErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Locations Found Error Message</shortDescription>
+        <value>You can only run this flow in an org with at least one location.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationUnavailableErrorTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Locations Found Error Title</shortDescription>
+        <value>No Locations Found</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_noDeliveryGroupsToFulfill</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Delivery Groups To Fulfill Empty State Message</shortDescription>
+        <value>When an order has items to fulfill, you&apos;ll find them here.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_noDeliveryGroupsToFulfillTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Delivery Groups To Fulfill Empty State Title</shortDescription>
+        <value>Nothing to Fulfill</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_orderDeliveryGroupEntityMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrderDeliveryGroup Not Found Error Message</shortDescription>
+        <value>We couldn&apos;t find the order delivery group. Try again. If this problem continues, ask your admin for help.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_orderDeliveryGroupEntityTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrderDeliveryGroup Not Found Error Title</shortDescription>
+        <value>Order Delivery Group Unavailable</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_orderSummaryEntityMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrderSummary Not Found Error Message</shortDescription>
+        <value>We couldn&apos;t find the order summary. Try again. If this problem continues, ask your admin for help.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_orderSummaryEntityTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrderSummary Not Found Error Title</shortDescription>
+        <value>Order Summary Unavailable</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_reservedAtLocationIdIsNotSetErrorDescription</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReservedAtLocationId Not Set Error Description</shortDescription>
+        <value>Every product must have a reserved at location or location group.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_reservedAtLocationIdIsNotSetErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReservedAtLocationId Not Set Error Message</shortDescription>
+        <value>Product {0} doesn&apos;t have a reserved at location or location group specified.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_unmanagedOrderErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unmanaged Order Error Message</shortDescription>
+        <value>You can only run this flow on a managed order summary.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_unmanagedOrderErrorTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unmanaged Order Error Title</shortDescription>
+        <value>Unmanaged Order Summary</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_unsuccessfulFulfillmentOrderCreationErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Order Creation Screen Error Message</shortDescription>
+        <value>The system encountered an error.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_unsuccessfulFulfillmentOrderCreationErrorTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Order Creation Screen Error Title</shortDescription>
+        <value>No Fulfillment Orders Created</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_doNotIncludeShippingCharges</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Do Not Include Shipping Charges Button Label</shortDescription>
+        <value>Don&apos;t include shipping charges</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_includeShippingCharges</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Include Shipping Charges Button Label</shortDescription>
+        <value>Include shipping charges</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_selectDeliveryGroupHeader</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Delivery Group Title</shortDescription>
+        <value>Select Shipping Address</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_selectFulfillLocationHeader</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Fulfillment Locations Title</shortDescription>
+        <value>Select Fulfillment Locations</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_selectProductsHeader</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Products Title</shortDescription>
+        <value>Select Products to Fulfill</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_selectShippingChargesHeader</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Include Shipping Charges Title</shortDescription>
+        <value>Include Remaining Shipping Charges</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_successMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Orders Success Title</shortDescription>
+        <value>Fulfillment Order Creation Succeeded</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Interaction_Order_Summary_Configuration</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple Locations Error Description</shortDescription>
+        <value>An interaction order can&apos;t include items with different fulfillment locations.</value>
+    </labels>
+    <labels>
+        <fullName>OCIConnectionFailedAttempts</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Max Connection Failures Error Description</shortDescription>
+        <value>The number of unsuccessful attempts to send transfer requests to Omnichannel Inventory has reached the limit.</value>
+    </labels>
+    <labels>
+        <fullName>OCIFOsCreationError</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Order Creation Error Description</shortDescription>
+        <value>The Create Fulfillment Order action returned an error.</value>
+    </labels>
+    <labels>
+        <fullName>OCIUnableGetResponse</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Max Connection Failures Error Message</shortDescription>
+        <value>The Transfer Reservation action returned an error the maximum allowable number of times.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Find_Routes_With_Fewest_Splits_Output_Error</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Find Routes With Fewest Splits Output Error Message</shortDescription>
+        <value>The Find Routes with Fewest Splits action didn&apos;t return any routes.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Find_Routes_With_Fewest_Splits_Output_Error_Description</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Find Routes With Fewest Splits Error Description</shortDescription>
+        <value>The Find Routes with Fewest Splits action failed.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Get_Availability_Output_Error</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Get Availability Output Error Message</shortDescription>
+        <value>The Get Availability action didn&apos;t return any available inventory.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Get_Availability_Output_Error_Description</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Get Availability Error Description</shortDescription>
+        <value>The Get Availability action failed.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Rank_by_Average_Distance_Output_Error</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rank by Average Distance Error Message</shortDescription>
+        <value>The Rank by Average Distance action didn&apos;t return a valid response.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Rank_by_Average_Distance_Output_Error_Description</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rank by Average Distance Error Description</shortDescription>
+        <value>The Rank by Average Distance action failed.</value>
+    </labels>
+    <labels>
+        <fullName>Omnichannel_Get_Location_Error</fullName>
+        <categories>RoutingFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Get Location Error</shortDescription>
+        <value>We couldn&apos;t find location {0} in this org.</value>
+    </labels>
+    <labels>
+        <fullName>Omnichannel_Get_Location_Error_Description</fullName>
+        <categories>RoutingFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Get Location Error Description</shortDescription>
+        <value>Exception caused by Get Location element.</value>
+    </labels>
+    <labels>
+        <fullName>RoutingLocationFault</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Routing Location Fault</shortDescription>
+        <value>The item&apos;s location is missing or not configured to sync with Omnichannel Inventory.</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Fulfillment_Order</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple Locations Error Message</shortDescription>
+        <value>Some of the items specified for the interaction order have different fulfillment locations.</value>
+    </labels>
+</CustomLabels>

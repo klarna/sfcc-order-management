@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>The Action to initiate the KLARNA Cancel Order Callout</description>
+        <name>KLARNA_Cancel_Order_Callout</name>
+        <label>KLARNA Cancel Order Callout</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <actionName>KLA_OrderCancellation_Invocable</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>KLARNA_Cancel_Order_Confirmation</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>KLARNA_Cancel_Order_Failure</targetReference>
+        </faultConnector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>orderIDs</name>
+            <value>
+                <elementReference>sfoms_OrderNumber</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>51.0</apiVersion>
+    <description>Add this Subflow to initiate a Cancel Full Order Cancel. Pass the OrderSummary.OrderNumber as input</description>
+    <interviewLabel>KLARNA Cancel Order Subflow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>KLARNA Cancel Order Subflow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>KLARNA_Cancel_Order_Confirmation</name>
+        <label>KLARNA Cancel Order Confirmation</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>KLARNA_Cancel_Order_Callout_Success</name>
+            <fieldText>&lt;p&gt;KLARNA Cancel Order Callout Success&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>KLARNA_Cancel_Order_Failure</name>
+        <label>KLARNA_Cancel_Order_Failure</label>
+        <locationX>440</locationX>
+        <locationY>278</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>KLARNA_Cancel_Order_Failure_Text</name>
+            <fieldText>&lt;p&gt;KLARNA Cancel Order Failure&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>KLARNA_Cancel_Order_Callout</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>The value of the Order Summary Numberfrom OrderSummary.OrderNumber to be passed</description>
+        <name>sfoms_OrderNumber</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>
