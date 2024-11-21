@@ -1,4 +1,4 @@
-[<img src="https://cdn.klarna.com/1.0/shared/image/generic/logo/global/basic/logo_black.png" alt="Klarna" width="200">](https://klarna.com)
+[<img src="https://osm.klarnaservices.com/images/badges/klarna_v2_1.svg" alt="Klarna" width="200">](https://klarna.com)
 
 # Klarna Order Management App for Salesforce Commerce Cloud
 
